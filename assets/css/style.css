@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #d58a00;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.aside__header {
+  display: flex;
+  flex-direction: column;
+  background-color: #325b3b;
+}
+
+.aside__header a {
+  text-decoration: none;
+  color: #d58a00;
+  align-self: center;
+  font-size: 1.5rem;
+  border: solid 3px #d58a00;
+  padding: 10px;
+  border-radius: 15px;
+  transition: 500ms;
+  box-shadow: 1px 1px 3px black;
+}
+
+.aside__header a:hover {
+  background-color: #d58a00;
+  color: #325b3b;
+}
+
+.main__header {
+    display: flex;
+    background-color: #fde3c2;
+}
+
+.contenedor__slider h1 {
+  background-color: #325b3b;
+  border-radius: 15px;
+  color: #d58a00;
+  padding: 10px;
+  box-shadow: 1px 1px 3px black;
+  text-shadow: 1px 1px 3px black;
+}
+
+.contenedor__slider img {
+  border-radius: 15px;
+  height: 50vh;
+  object-fit: cover;
+  border: 5px solid #325b3b;
+}
+
+.clearfix {
+  background: #325b3b;
+  margin: -13px;
+}
+
+.clearfix h1 {
+  text-shadow: 1px 1px 3px black;
+}
+
+.clearfix p {
+  margin-left: 10px;
+}
+
+.direccion  {
+  color: #d58a00;
+  font-size: 16px;
+}
+.direccion b {
+  text-decoration: underline;
+}
+
+.iconos__redes a {
+  font-size: 60px;
+  text-decoration: none;
+  color: #d58a00;
+  margin: 20px;
+  transition: 200ms;
+}
+
+.iconos__redes a:hover {
+  border: 5px solid #d58a00;
+  background-color: #d58a00;
+  color: #325b3b;
+  border-radius: 15px;
+}
+
+
+.card {
+  background-color: #325b3b;
+  border-radius: 15px;
+  color: #d58a00;
+  box-shadow: 1px 1px 3px black;
+}
+
+.card img {
+  border-radius: 15px;
+}
+
+.container footer {
+  border-top: 1px solid #325b3b;
+}
+
+.container footer a {
+  color: #325b3b;
+  font-size: 30px;
+}
+
+.container footer span {
+  color: #325b3b;
+  font-weight: 700;
+}
+
+
+@media screen and (max-width: 700px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 50%;
+  }
+
+  .aside__header a {
+    text-decoration: none;
+    color: #d58a00;
+    align-self: center;
+    font-size: 1.5rem;
+    border: solid 3px #d58a00;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 500ms;
+    margin-bottom: 20px;
+  }
+  .main__header {
+    height: 700px;
+    overflow: hidden;
+  }
+
+  
+}
