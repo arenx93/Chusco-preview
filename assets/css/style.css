@@ -85,10 +85,10 @@ body {
 }
 
 .iconos__redes a {
-  font-size: 60px;
+  font-size: 50px;
   text-decoration: none;
   color: #d58a00;
-  margin: 20px;
+  display: inline-block;
   transition: 200ms;
 }
 
